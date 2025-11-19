@@ -1,5 +1,13 @@
 # @hyperdx/app
 
+## 2.8.1
+
+### Patch Changes
+
+- 237a2677: style: Fix missing AlertHistory colors
+- bacefac9: fix: Fix session page source change on submit
+- f868c3ca: Add back selection ui on histogram
+
 ## 2.8.0
 
 ### Minor Changes
