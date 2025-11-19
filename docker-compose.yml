@@ -18,7 +18,7 @@ services:
     image: mongo:5.0.14-focal
     volumes:
       # - .volumes/db:/data/db
-      mongo_data:/data/db
+      - mongo_data:/data/db
     # WARNING: Exposing the database port will make it accessible from outside the container,
     # potentially allowing unauthorized access. If you uncomment the ports below,
     # ensure to secure your database (e.g., with strong authentication, proper network rules, and firewalls).
