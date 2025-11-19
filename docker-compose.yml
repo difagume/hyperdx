@@ -88,8 +88,8 @@ services:
       # default settings
       CLICKHOUSE_DEFAULT_ACCESS_MANAGEMENT: 1
     volumes:
-      - ..files/config.xml:/etc/clickhouse-server/config.xml
-      - ..files/users.xml:/etc/clickhouse-server/users.xml
+      - ../files/config.xml:/etc/clickhouse-server/config.xml
+      - ../files/users.xml:/etc/clickhouse-server/users.xml
       - ch_data:/var/lib/clickhouse
       - ch_logs:/var/log/clickhouse-server
     restart: on-failure
